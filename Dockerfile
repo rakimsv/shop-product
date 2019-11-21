@@ -1,5 +1,5 @@
 FROM java:openjdk-8-jdk
 
-COPY ./target/products-1.0.0.jar /usr/app/
+COPY ./target/products.jar /usr/app/
 
-ENTRYPOINT ["java","-jar","usr/app/products-1.0.0.jar"]
+ENTRYPOINT ["java","-jar","usr/app/products.jar"]
